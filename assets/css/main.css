@@ -1,6 +1,8 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Poppins:500,700");
 
+html { scroll-behavior: smooth }
+
 body {
   font-family: 'Open Sans', sans-serif;
   background: #fff;
@@ -461,7 +463,7 @@ li.search {
 
 /*===== NAVBAR =====*/
 .sticky {
-  position: fixed; /* 'fixed' was removed by Heidi so there's no sticky header */
+  position: fixed; /* 'fixed' was removed by Heidi so there's no sticky header but since it's a long page, you need the sticky */
   top: 0;
   left: 0;
   width: 100%;
